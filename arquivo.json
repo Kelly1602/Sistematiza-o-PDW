@@ -1,0 +1,44 @@
+{
+    "site": {
+      "titulo": "Clínica Leve",
+      "descricao": "Centro de saúde especializado no emagrecimento com atendimento multidisciplinar."
+    },
+    "navegacao": [
+      { "nome": "Home", "link": "#home" },
+      { "nome": "Especialidades", "link": "#especialidades" },
+      { "nome": "Especialistas", "link": "#especialistas" },
+      { "nome": "Contato", "link": "#contato" }
+    ],
+    "especialidades": [
+      "Nutricionista",
+      "Endocrinologista",
+      "Clínica Geral"
+    ],
+    "especialistas": [
+      {
+        "nome": "Dra. Mariana Andrade",
+        "especialidade": "Nutricionista",
+        "imagem": "img/nutricionista.img.png"
+      },
+      {
+        "nome": "Dr. Felipe Vasconcelos",
+        "especialidade": "Endocrinologista",
+        "imagem": "img/endocrinologista.img.png"
+      },
+      {
+        "nome": "Dr. Lucas Fernandes",
+        "especialidade": "Clínico Geral",
+        "imagem": "img/clinicageral.img.png"
+      }
+    ],
+    "contato": {
+      "endereco": "Brasília-DF"
+    },
+    "formulario": [
+      { "campo": "Nome", "tipo": "text", "id": "nome", "obrigatorio": true },
+      { "campo": "E-mail", "tipo": "email", "id": "email", "obrigatorio": true },
+      { "campo": "Cidade", "tipo": "text", "id": "cidade", "obrigatorio": true },
+      { "campo": "Estado", "tipo": "text", "id": "estado", "obrigatorio": true }
+    ]
+  }
+  
