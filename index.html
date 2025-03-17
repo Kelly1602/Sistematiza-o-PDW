@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Leve</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #4CAF50;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        .profissionais {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .profissional {
+            text-align: center;
+        }
+        .profissional img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        .formulario {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+        .formulario input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .formulario button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .formulario button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#especialistas">Especialistas</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="home" class="section">
+        <h1>Bem-vindo à Clínica Leve</h1>
+        <h3>Visão geral</h3>
+        <p>
+            A Clínica Leve é um centro de saúde especializado no emagrecimento, oferecendo atendimento multidisciplinar com nutricionistas, endocrinologistas e clínicos gerais. O objetivo principal da clínica é proporcionar um acompanhamento completo e personalizado para pacientes que desejam perder peso de forma saudável e sustentável.
+        </p>
+        <p>
+            A abordagem da clínica é baseada em ciência e bem-estar, combinando planos alimentares equilibrados, acompanhamento médico e orientações para mudanças no estilo de vida. Com um ambiente acolhedor e profissionais qualificados, a Clínica Leve busca transformar a saúde e a autoestima dos pacientes, promovendo qualidade de vida a longo prazo.
+        </p>
+    </section>
+
+    <section id="especialidades" class="section">
+        <h2>Nossas Especialidades</h2>
+        <ul>
+            <li>Nutricionista</li>
+            <li>Endocrinologista</li>
+            <li>Clínica Geral</li>
+        </ul>
+    </section>
+
+    <section id="especialistas" class="section">
+        <h2>Nossos Especialistas</h2>
+        <div class="profissionais">
+            <div class="profissional">
+                <img src="img/nutricionista.img.png" alt="Nutricionista">
+                <p><strong>Dra. Mariana Andrade</strong></p>
+            </div>
+            <div class="profissional">
+                <img src="img/endocrinologista.img.png" alt="Endocrinologista">
+                <p><strong>Dr. Felipe Vasconcelos</strong></p>
+            </div>
+            <div class="profissional">
+                <img src="img/clinicageral.img.png" alt="Clínico Geral">
+                <p><strong>Dr. Lucas Fernandes</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Nosso endereço: <strong>Brasília-DF</strong></p>
+    </section>
+
+    <section id="formulario" class="section">
+        <h2>Saiba Mais</h2>
+        <form class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
